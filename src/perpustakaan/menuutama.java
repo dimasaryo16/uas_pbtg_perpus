@@ -36,6 +36,7 @@ ResultSet res;
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel2 = new javax.swing.JLabel();
         admin = new javax.swing.JButton();
         mahasiswa = new javax.swing.JButton();
         exit = new javax.swing.JButton();
@@ -44,6 +45,10 @@ ResultSet res;
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jLabel2.setFont(new java.awt.Font("Calibri", 1, 36)); // NOI18N
+        jLabel2.setText("PILIH ROLE ANDA");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 70, 270, -1));
+
         admin.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         admin.setText("ADMIN");
         admin.addActionListener(new java.awt.event.ActionListener() {
@@ -51,7 +56,7 @@ ResultSet res;
                 adminActionPerformed(evt);
             }
         });
-        getContentPane().add(admin, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 190, -1));
+        getContentPane().add(admin, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 160, 190, -1));
 
         mahasiswa.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         mahasiswa.setText("MAHASISWA");
@@ -60,7 +65,7 @@ ResultSet res;
                 mahasiswaActionPerformed(evt);
             }
         });
-        getContentPane().add(mahasiswa, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 70, 190, -1));
+        getContentPane().add(mahasiswa, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 160, 190, -1));
 
         exit.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         exit.setText("Exit");
@@ -69,7 +74,7 @@ ResultSet res;
                 exitActionPerformed(evt);
             }
         });
-        getContentPane().add(exit, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 130, 60, -1));
+        getContentPane().add(exit, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 250, 60, -1));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/perpustakaan/kota-ini-sulap-lahan-kosong-jadi-taman-baca-dbr2JkwTIe.jpg"))); // NOI18N
         jLabel1.setText("jLabel1");
@@ -137,6 +142,7 @@ ResultSet res;
     private javax.swing.JButton admin;
     private javax.swing.JButton exit;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JButton mahasiswa;
     // End of variables declaration//GEN-END:variables
 }

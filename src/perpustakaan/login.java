@@ -34,6 +34,7 @@ public class login extends javax.swing.JFrame {
 
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
         label1 = new javax.swing.JLabel();
         label2 = new javax.swing.JLabel();
         user = new javax.swing.JTextField();
@@ -49,19 +50,23 @@ public class login extends javax.swing.JFrame {
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel2.setFont(new java.awt.Font("Calibri", 1, 36)); // NOI18N
-        jLabel2.setText("Login Page");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 170, -1));
+        jLabel2.setText("PERPUSTAKAAN DIMAS");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 30, 360, -1));
+
+        jLabel4.setFont(new java.awt.Font("Calibri", 1, 36)); // NOI18N
+        jLabel4.setText("Login Page");
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 80, 170, -1));
 
         label1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         label1.setText("Username");
-        getContentPane().add(label1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, 60, -1));
+        getContentPane().add(label1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 140, 60, 20));
 
         label2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         label2.setText("Password");
-        getContentPane().add(label2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 110, 60, -1));
+        getContentPane().add(label2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 170, 60, 20));
 
         user.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        getContentPane().add(user, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 80, 230, -1));
+        getContentPane().add(user, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 140, 230, -1));
 
         login.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         login.setText("Login");
@@ -70,7 +75,7 @@ public class login extends javax.swing.JFrame {
                 loginActionPerformed(evt);
             }
         });
-        getContentPane().add(login, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 150, -1, -1));
+        getContentPane().add(login, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 200, -1, -1));
 
         exit.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         exit.setText("Exit");
@@ -79,7 +84,7 @@ public class login extends javax.swing.JFrame {
                 exitActionPerformed(evt);
             }
         });
-        getContentPane().add(exit, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 150, 60, -1));
+        getContentPane().add(exit, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 200, 60, -1));
 
         reg.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         reg.setText("Register");
@@ -88,8 +93,8 @@ public class login extends javax.swing.JFrame {
                 regActionPerformed(evt);
             }
         });
-        getContentPane().add(reg, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 150, 90, -1));
-        getContentPane().add(pass, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 110, 230, -1));
+        getContentPane().add(reg, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 200, 90, -1));
+        getContentPane().add(pass, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 170, 230, -1));
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/perpustakaan/kota-ini-sulap-lahan-kosong-jadi-taman-baca-dbr2JkwTIe.jpg"))); // NOI18N
         jLabel3.setText("jLabel3");
@@ -181,6 +186,7 @@ JOptionPane.showMessageDialog(null, "Gagal, Silakan ulangi","Informasi", JOption
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel label1;
     private javax.swing.JLabel label2;
     private javax.swing.JButton login;
